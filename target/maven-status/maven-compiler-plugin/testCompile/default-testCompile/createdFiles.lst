@@ -1,0 +1,11 @@
+com\thanh\pages\CategoryPage.class
+com\thanh\testcases\ForgotPassTest.class
+com\thanh\testcases\ProductTest.class
+com\thanh\testcases\CategoryTest.class
+com\thanh\pages\ForgotPasswordPage.class
+com\thanh\pages\LoginPage.class
+com\thanh\common\BaseTest.class
+com\thanh\listeners\TestListener.class
+com\thanh\pages\CommonPage.class
+com\thanh\pages\ProductPage.class
+com\thanh\testcases\LoginTest.class

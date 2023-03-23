@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Testing for Categories CMS">
+    <test name="Regression">
+        <classes>
+            <class name="com.thanh.testcases.CategoryTest"/>
+        </classes>
+    </test>
+</suite>

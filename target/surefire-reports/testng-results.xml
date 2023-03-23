@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-23T10:52:34 WIB" name="Testing for Categories CMS (0)" finished-at="2023-03-23T10:53:10 WIB" duration-ms="36301">
+    <groups>
+    </groups>
+    <test started-at="2023-03-23T10:52:34 WIB" name="Regression" finished-at="2023-03-23T10:53:10 WIB" duration-ms="36301">
+      <class name="com.thanh.testcases.CategoryTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.thanh.testcases.CategoryTest@7a344b65]" started-at="2023-03-23T10:52:34 WIB" name="createDriver" finished-at="2023-03-23T10:52:35 WIB" duration-ms="742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thanh.testcases.CategoryTest@7a344b65]" started-at="2023-03-23T10:52:35 WIB" name="setUp" finished-at="2023-03-23T10:52:41 WIB" duration-ms="6030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCategories()[pri:0, instance:com.thanh.testcases.CategoryTest@7a344b65]" started-at="2023-03-23T10:52:41 WIB" name="testCategories" finished-at="2023-03-23T10:53:08 WIB" duration-ms="27345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategories -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:com.thanh.testcases.CategoryTest@7a344b65]" started-at="2023-03-23T10:53:08 WIB" name="closeDriver" finished-at="2023-03-23T10:53:10 WIB" duration-ms="2180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCategories status=SUCCESS method=CategoryTest.testCategories()[pri:0, instance:com.thanh.testcases.CategoryTest@7a344b65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.thanh.testcases.CategoryTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing for Categories CMS (0) -->
+  <suite started-at="2023-03-23T10:52:12 WIB" name="Testing for Login CMS" finished-at="2023-03-23T10:52:34 WIB" duration-ms="21575">
+    <groups>
+    </groups>
+    <test started-at="2023-03-23T10:52:12 WIB" name="Regression" finished-at="2023-03-23T10:52:34 WIB" duration-ms="21575">
+      <class name="com.thanh.testcases.LoginTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:12 WIB" name="createDriver" finished-at="2023-03-23T10:52:13 WIB" duration-ms="862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:13 WIB" name="setUp" finished-at="2023-03-23T10:52:13 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogIn()[pri:1, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:13 WIB" name="testLogIn" finished-at="2023-03-23T10:52:16 WIB" duration-ms="2795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:16 WIB" name="closeDriver" finished-at="2023-03-23T10:52:18 WIB" duration-ms="2162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogIn status=SUCCESS method=LoginTest.testLogIn()[pri:1, instance:com.thanh.testcases.LoginTest@5c645b43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:18 WIB" name="createDriver" finished-at="2023-03-23T10:52:19 WIB" duration-ms="763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:19 WIB" name="setUp" finished-at="2023-03-23T10:52:19 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogInWithEmailInvalid()[pri:2, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:19 WIB" name="testLogInWithEmailInvalid" finished-at="2023-03-23T10:52:21 WIB" duration-ms="1835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithEmailInvalid -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:21 WIB" name="closeDriver" finished-at="2023-03-23T10:52:23 WIB" duration-ms="2139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogInWithEmailInvalid status=SUCCESS method=LoginTest.testLogInWithEmailInvalid()[pri:2, instance:com.thanh.testcases.LoginTest@5c645b43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:23 WIB" name="createDriver" finished-at="2023-03-23T10:52:24 WIB" duration-ms="761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:24 WIB" name="setUp" finished-at="2023-03-23T10:52:24 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogInWithPasswordInvalid()[pri:3, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:24 WIB" name="testLogInWithPasswordInvalid" finished-at="2023-03-23T10:52:25 WIB" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithPasswordInvalid -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:25 WIB" name="closeDriver" finished-at="2023-03-23T10:52:27 WIB" duration-ms="2138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogInWithPasswordInvalid status=SUCCESS method=LoginTest.testLogInWithPasswordInvalid()[pri:3, instance:com.thanh.testcases.LoginTest@5c645b43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:27 WIB" name="createDriver" finished-at="2023-03-23T10:52:28 WIB" duration-ms="761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:28 WIB" name="setUp" finished-at="2023-03-23T10:52:28 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogOut()[pri:4, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:28 WIB" name="testLogOut" finished-at="2023-03-23T10:52:32 WIB" duration-ms="3430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:com.thanh.testcases.LoginTest@5c645b43]" started-at="2023-03-23T10:52:32 WIB" name="closeDriver" finished-at="2023-03-23T10:52:34 WIB" duration-ms="2169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogOut status=SUCCESS method=LoginTest.testLogOut()[pri:4, instance:com.thanh.testcases.LoginTest@5c645b43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.thanh.testcases.LoginTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing for Login CMS -->
+  <suite started-at="2023-03-23T10:53:10 WIB" name="Testing for Product CMS" finished-at="2023-03-23T10:53:51 WIB" duration-ms="40308">
+    <groups>
+    </groups>
+    <test started-at="2023-03-23T10:53:10 WIB" name="Regression" finished-at="2023-03-23T10:53:51 WIB" duration-ms="40308">
+      <class name="com.thanh.testcases.ProductTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.thanh.testcases.ProductTest@3b08f438]" started-at="2023-03-23T10:53:10 WIB" name="createDriver" finished-at="2023-03-23T10:53:11 WIB" duration-ms="782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thanh.testcases.ProductTest@3b08f438]" started-at="2023-03-23T10:53:11 WIB" name="setUp" finished-at="2023-03-23T10:53:16 WIB" duration-ms="4560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProduct()[pri:0, instance:com.thanh.testcases.ProductTest@3b08f438]" started-at="2023-03-23T10:53:16 WIB" name="testProduct" finished-at="2023-03-23T10:53:48 WIB" duration-ms="32815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProduct -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:com.thanh.testcases.ProductTest@3b08f438]" started-at="2023-03-23T10:53:48 WIB" name="closeDriver" finished-at="2023-03-23T10:53:51 WIB" duration-ms="2140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProduct status=SUCCESS method=ProductTest.testProduct()[pri:0, instance:com.thanh.testcases.ProductTest@3b08f438] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.thanh.testcases.ProductTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing for Product CMS -->
+  <suite started-at="2023-03-23T10:51:49 WIB" name="Testing for Categories CMS" finished-at="2023-03-23T10:52:12 WIB" duration-ms="22264">
+    <groups>
+    </groups>
+    <test started-at="2023-03-23T10:51:49 WIB" name="Regression" finished-at="2023-03-23T10:52:12 WIB" duration-ms="22264">
+      <class name="com.thanh.testcases.ForgotPassTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:51:50 WIB" name="createDriver" finished-at="2023-03-23T10:51:52 WIB" duration-ms="1915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:51:52 WIB" name="setUp" finished-at="2023-03-23T10:51:54 WIB" duration-ms="2213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgotPassValid()[pri:1, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:51:54 WIB" name="testForgotPassValid" finished-at="2023-03-23T10:51:58 WIB" duration-ms="3859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPassValid -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:51:58 WIB" name="closeDriver" finished-at="2023-03-23T10:52:00 WIB" duration-ms="2133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testForgotPassValid status=SUCCESS method=ForgotPassTest.testForgotPassValid()[pri:1, instance:com.thanh.testcases.ForgotPassTest@47f08b81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:52:00 WIB" name="createDriver" finished-at="2023-03-23T10:52:01 WIB" duration-ms="784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:52:01 WIB" name="setUp" finished-at="2023-03-23T10:52:03 WIB" duration-ms="1664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgotPassInValidWithEmail()[pri:2, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:52:03 WIB" name="testForgotPassInValidWithEmail" finished-at="2023-03-23T10:52:04 WIB" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPassInValidWithEmail -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:52:04 WIB" name="closeDriver" finished-at="2023-03-23T10:52:06 WIB" duration-ms="2145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testForgotPassInValidWithEmail status=SUCCESS method=ForgotPassTest.testForgotPassInValidWithEmail()[pri:2, instance:com.thanh.testcases.ForgotPassTest@47f08b81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:52:06 WIB" name="createDriver" finished-at="2023-03-23T10:52:07 WIB" duration-ms="772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:52:07 WIB" name="setUp" finished-at="2023-03-23T10:52:08 WIB" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgotPassInValidWithNumber()[pri:3, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:52:08 WIB" name="testForgotPassInValidWithNumber" finished-at="2023-03-23T10:52:10 WIB" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPassInValidWithNumber -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:com.thanh.testcases.ForgotPassTest@47f08b81]" started-at="2023-03-23T10:52:10 WIB" name="closeDriver" finished-at="2023-03-23T10:52:12 WIB" duration-ms="2163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testForgotPassInValidWithNumber status=SUCCESS method=ForgotPassTest.testForgotPassInValidWithNumber()[pri:3, instance:com.thanh.testcases.ForgotPassTest@47f08b81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.thanh.testcases.ForgotPassTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing for Categories CMS -->
+</testng-results>
