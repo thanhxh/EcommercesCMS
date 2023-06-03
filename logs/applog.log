@@ -1,0 +1,144 @@
+[INFO] 23-03-2023 10:51:50 [main] [LogUtils] - Starting Suite: Thu Mar 23 10:51:49 WIB 2023
+[INFO] 23-03-2023 10:51:53 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 23-03-2023 10:51:54 [main] [LogUtils] - Click element By.xpath: //a[normalize-space()='Forgot password ?']
+[INFO] 23-03-2023 10:51:55 [main] [LogUtils] - Click element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-03-2023 10:51:55 [main] [LogUtils] - Get text: Forgot password?
+[INFO] 23-03-2023 10:51:55 [main] [LogUtils] - Verify equals: Forgot password? and Forgot password?
+[INFO] 23-03-2023 10:51:55 [main] [LogUtils] - Set text: tienthanh@email.com on element By.xpath: //input[@id='email']
+[INFO] 23-03-2023 10:51:58 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Send Password Reset Link']
+[INFO] 23-03-2023 10:51:58 [main] [LogUtils] - testForgotPassValid is pass.
+[INFO] 23-03-2023 10:52:02 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 23-03-2023 10:52:03 [main] [LogUtils] - Click element By.xpath: //a[normalize-space()='Forgot password ?']
+[INFO] 23-03-2023 10:52:03 [main] [LogUtils] - Click element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-03-2023 10:52:03 [main] [LogUtils] - Get text: Forgot password?
+[INFO] 23-03-2023 10:52:03 [main] [LogUtils] - Verify equals: Forgot password? and Forgot password?
+[INFO] 23-03-2023 10:52:03 [main] [LogUtils] - Set text: tienthanhxh123@gmail.com on element By.xpath: //input[@id='email']
+[INFO] 23-03-2023 10:52:04 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Send Password Reset Link']
+[INFO] 23-03-2023 10:52:04 [main] [LogUtils] - Get text: No account exists with this email
+[INFO] 23-03-2023 10:52:04 [main] [LogUtils] - Verify equals: No account exists with this email and No account exists with this email
+[INFO] 23-03-2023 10:52:04 [main] [LogUtils] - testForgotPassInValidWithEmail is pass.
+[INFO] 23-03-2023 10:52:08 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 23-03-2023 10:52:08 [main] [LogUtils] - Click element By.xpath: //a[normalize-space()='Forgot password ?']
+[INFO] 23-03-2023 10:52:09 [main] [LogUtils] - Click element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-03-2023 10:52:09 [main] [LogUtils] - Get text: Forgot password?
+[INFO] 23-03-2023 10:52:09 [main] [LogUtils] - Verify equals: Forgot password? and Forgot password?
+[INFO] 23-03-2023 10:52:09 [main] [LogUtils] - Set text: tienthanh123@123 on element By.xpath: //input[@id='email']
+[INFO] 23-03-2023 10:52:09 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Send Password Reset Link']
+[INFO] 23-03-2023 10:52:10 [main] [LogUtils] - Get text: No account exists with this phone number
+[INFO] 23-03-2023 10:52:10 [main] [LogUtils] - Verify equals: No account exists with this phone number and No account exists with this phone number
+[INFO] 23-03-2023 10:52:10 [main] [LogUtils] - testForgotPassInValidWithNumber is pass.
+[INFO] 23-03-2023 10:52:12 [main] [LogUtils] - Finish Suite: Thu Mar 23 10:52:12 WIB 2023
+[INFO] 23-03-2023 10:52:12 [main] [LogUtils] - Starting Suite: Thu Mar 23 10:52:12 WIB 2023
+[INFO] 23-03-2023 10:52:14 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 23-03-2023 10:52:14 [main] [LogUtils] - Set text: tienthanh@email.com on element By.xpath: //input[@id='email']
+[INFO] 23-03-2023 10:52:14 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-03-2023 10:52:15 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-03-2023 10:52:16 [main] [LogUtils] - testLogIn is pass.
+[INFO] 23-03-2023 10:52:20 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 23-03-2023 10:52:20 [main] [LogUtils] - Set text: tienthanhxh2000@gmail.com on element By.xpath: //input[@id='email']
+[INFO] 23-03-2023 10:52:20 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-03-2023 10:52:21 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-03-2023 10:52:21 [main] [LogUtils] - Get text: Invalid login credentials
+[INFO] 23-03-2023 10:52:21 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials
+[INFO] 23-03-2023 10:52:21 [main] [LogUtils] - testLogInWithEmailInvalid is pass.
+[INFO] 23-03-2023 10:52:24 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 23-03-2023 10:52:24 [main] [LogUtils] - Set text: tienthanh@email.com on element By.xpath: //input[@id='email']
+[INFO] 23-03-2023 10:52:24 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 23-03-2023 10:52:25 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-03-2023 10:52:25 [main] [LogUtils] - Get text: Invalid login credentials
+[INFO] 23-03-2023 10:52:25 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials
+[INFO] 23-03-2023 10:52:25 [main] [LogUtils] - testLogInWithPasswordInvalid is pass.
+[INFO] 23-03-2023 10:52:29 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 23-03-2023 10:52:29 [main] [LogUtils] - Set text: tienthanh@email.com on element By.xpath: //input[@id='email']
+[INFO] 23-03-2023 10:52:29 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-03-2023 10:52:30 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-03-2023 10:52:31 [main] [LogUtils] - Get text: Clear Cache
+[INFO] 23-03-2023 10:52:31 [main] [LogUtils] - Verify equals: Clear Cache and Clear Cache
+[INFO] 23-03-2023 10:52:31 [main] [LogUtils] - Click element By.xpath: //span[@class='d-flex align-items-center']
+[INFO] 23-03-2023 10:52:32 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Logout']
+[INFO] 23-03-2023 10:52:32 [main] [LogUtils] - testLogOut is pass.
+[INFO] 23-03-2023 10:52:34 [main] [LogUtils] - Finish Suite: Thu Mar 23 10:52:34 WIB 2023
+[INFO] 23-03-2023 10:52:34 [main] [LogUtils] - Starting Suite: Thu Mar 23 10:52:34 WIB 2023
+[INFO] 23-03-2023 10:52:35 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 23-03-2023 10:52:35 [main] [LogUtils] - Set text: tienthanh@email.com on element By.xpath: //input[@id='email']
+[INFO] 23-03-2023 10:52:36 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-03-2023 10:52:36 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-03-2023 10:52:37 [main] [LogUtils] - Get text: Clear Cache
+[INFO] 23-03-2023 10:52:37 [main] [LogUtils] - Verify equals: Clear Cache and Clear Cache
+[INFO] 23-03-2023 10:52:37 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 23-03-2023 10:52:39 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
+[INFO] 23-03-2023 10:52:39 [main] [LogUtils] - Check Element Exist: true --- By.xpath: //h1[normalize-space()='All categories']
+[INFO] 23-03-2023 10:52:39 [main] [LogUtils] - Get text: All categories
+[INFO] 23-03-2023 10:52:41 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
+[INFO] 23-03-2023 10:52:41 [main] [LogUtils] - Get text: Category Information
+[INFO] 23-03-2023 10:52:41 [main] [LogUtils] - Verify equals: Category Information and Category Information
+[INFO] 23-03-2023 10:52:41 [main] [LogUtils] - Set text: ThanhDT2k Cate on element By.xpath: //input[@id='name']
+[INFO] 23-03-2023 10:52:42 [main] [LogUtils] - Click element By.xpath: //label[normalize-space()='Parent Category']/following-sibling::div
+[INFO] 23-03-2023 10:52:42 [main] [LogUtils] - Set text: Hoai nhi on element By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 23-03-2023 10:52:43 [main] [LogUtils] - Set text: 3 on element By.xpath: //input[@id='order_level']
+[INFO] 23-03-2023 10:52:44 [main] [LogUtils] - Click element By.xpath: //label[normalize-space()='Type']//following-sibling::div
+[INFO] 23-03-2023 10:52:44 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Digital']
+[INFO] 23-03-2023 10:52:44 [main] [LogUtils] - Click element By.xpath: //label[normalize-space()='Banner (200x200)']/following-sibling::div//div[normalize-space()='Choose File']
+[INFO] 23-03-2023 10:52:45 [main] [LogUtils] - Click element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 23-03-2023 10:52:45 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Browse']
+[INFO] 23-03-2023 10:52:51 [main] [LogUtils] - Click element By.xpath: //a[normalize-space()='Select File']
+[INFO] 23-03-2023 10:52:51 [main] [LogUtils] - Set text: pilot on element By.xpath: //input[@placeholder='Search your files']
+[INFO] 23-03-2023 10:52:53 [main] [LogUtils] - Click element By.xpath: (//div[@class='card-body']//h6//span)[1]
+[INFO] 23-03-2023 10:52:54 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 23-03-2023 10:52:57 [main] [LogUtils] - Set text: Có on element By.xpath: //input[@placeholder='Meta Title']
+[INFO] 23-03-2023 10:52:57 [main] [LogUtils] - Set text: Không on element By.xpath: //textarea[@name='meta_description']
+[INFO] 23-03-2023 10:52:58 [main] [LogUtils] - Click element By.xpath: //label[normalize-space()='Filtering Attributes']//following-sibling::div
+[INFO] 23-03-2023 10:52:58 [main] [LogUtils] - Set text: Size on element By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 23-03-2023 10:52:59 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
+[INFO] 23-03-2023 10:52:59 [main] [LogUtils] - Get text: All categories
+[INFO] 23-03-2023 10:52:59 [main] [LogUtils] - Verify equals: All categories and All categories
+[INFO] 23-03-2023 10:52:59 [main] [LogUtils] - Get text: Categories
+[INFO] 23-03-2023 10:52:59 [main] [LogUtils] - Verify equals: Categories and Categories
+[INFO] 23-03-2023 10:53:00 [main] [LogUtils] - Set text: ThanhDT2k Cate on element By.xpath: //input[@id='search']
+[INFO] 23-03-2023 10:53:06 [main] [LogUtils] - Click element By.xpath: //a[contains(text(),'›')]
+[INFO] 23-03-2023 10:53:08 [main] [LogUtils] - testCategories is pass.
+[INFO] 23-03-2023 10:53:10 [main] [LogUtils] - Finish Suite: Thu Mar 23 10:53:10 WIB 2023
+[INFO] 23-03-2023 10:53:10 [main] [LogUtils] - Starting Suite: Thu Mar 23 10:53:10 WIB 2023
+[INFO] 23-03-2023 10:53:12 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 23-03-2023 10:53:12 [main] [LogUtils] - Set text: tienthanh@email.com on element By.xpath: //input[@id='email']
+[INFO] 23-03-2023 10:53:12 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-03-2023 10:53:13 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-03-2023 10:53:14 [main] [LogUtils] - Get text: Clear Cache
+[INFO] 23-03-2023 10:53:14 [main] [LogUtils] - Verify equals: Clear Cache and Clear Cache
+[INFO] 23-03-2023 10:53:14 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 23-03-2023 10:53:15 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='All products']
+[INFO] 23-03-2023 10:53:15 [main] [LogUtils] - Check Element Exist: true --- By.xpath: //h1[normalize-space()='All products']
+[INFO] 23-03-2023 10:53:16 [main] [LogUtils] - Get text: All products
+[INFO] 23-03-2023 10:53:16 [main] [LogUtils] - Get text: Add New Product
+[INFO] 23-03-2023 10:53:16 [main] [LogUtils] - Click element By.xpath: //a[@class='btn btn-circle btn-info']//span[contains(text(),'Add New Product')]
+[INFO] 23-03-2023 10:53:16 [main] [LogUtils] - Get text: Add New Product
+[INFO] 23-03-2023 10:53:17 [main] [LogUtils] - Get text: Product Information
+[INFO] 23-03-2023 10:53:17 [main] [LogUtils] - Set text: Thanh Product 04 on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 23-03-2023 10:53:17 [main] [LogUtils] - Click element By.xpath: //div[@id='category']//label[@class='col-md-3 col-from-label']//following-sibling::div
+[INFO] 23-03-2023 10:53:17 [main] [LogUtils] - Set text: ThanhDT2k Cate on element By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 23-03-2023 10:53:18 [main] [LogUtils] - Click element By.xpath: //label[normalize-space()='Brand']//following-sibling::div
+[INFO] 23-03-2023 10:53:18 [main] [LogUtils] - Set text: Demo brand on element By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 23-03-2023 10:53:19 [main] [LogUtils] - Set text: KG on element By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 23-03-2023 10:53:19 [main] [LogUtils] - Click element By.xpath: //input[@name='min_qty']
+[INFO] 23-03-2023 10:53:19 [main] [LogUtils] - Set text: 11 on element By.xpath: //input[@name='min_qty']
+[INFO] 23-03-2023 10:53:20 [main] [LogUtils] - Click element By.xpath: //label[normalize-space()='Gallery Images (600x600)']//following-sibling::div
+[INFO] 23-03-2023 10:53:21 [main] [LogUtils] - Click element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 23-03-2023 10:53:21 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Browse']
+[INFO] 23-03-2023 10:53:27 [main] [LogUtils] - Click element By.xpath: //a[normalize-space()='Select File']
+[INFO] 23-03-2023 10:53:27 [main] [LogUtils] - Set text: pilot on element By.xpath: //input[@placeholder='Search your files']
+[INFO] 23-03-2023 10:53:28 [main] [LogUtils] - Click element By.xpath: (//div[@class='card-body']//h6//span)[1]
+[INFO] 23-03-2023 10:53:29 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 23-03-2023 10:53:32 [main] [LogUtils] - Click element By.xpath: //div[@class='col-md-1']//span
+[INFO] 23-03-2023 10:53:33 [main] [LogUtils] - Click element By.xpath: //input[@value='Colors']//following::button[@title='Nothing selected'][1]
+[INFO] 23-03-2023 10:53:33 [main] [LogUtils] - Set text: Black on element By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 23-03-2023 10:53:35 [main] [LogUtils] - Set text: Green on element By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[INFO] 23-03-2023 10:53:37 [main] [LogUtils] - Click element By.xpath: //input[@value='Colors']
+[INFO] 23-03-2023 10:53:38 [main] [LogUtils] - Click element By.xpath: //input[@placeholder='Unit price']
+[INFO] 23-03-2023 10:53:39 [main] [LogUtils] - Set text: 500000 on element By.xpath: //input[@placeholder='Unit price']
+[INFO] 23-03-2023 10:53:39 [main] [LogUtils] - Click element By.xpath: //input[@placeholder='Discount']
+[INFO] 23-03-2023 10:53:40 [main] [LogUtils] - Set text: 200000 on element By.xpath: //input[@placeholder='Discount']
+[INFO] 23-03-2023 10:53:42 [main] [LogUtils] - Set text: Ti?n Thành on element By.xpath: //input[@placeholder='Meta Title']
+[INFO] 23-03-2023 10:53:43 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 23-03-2023 10:53:44 [main] [LogUtils] - Set text: Thanh Product 04 on element By.xpath: //input[@id='search']
+[INFO] 23-03-2023 10:53:48 [main] [LogUtils] - testProduct is pass.
+[INFO] 23-03-2023 10:53:51 [main] [LogUtils] - Finish Suite: Thu Mar 23 10:53:51 WIB 2023
